@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: cool_package,domain_package
+dependency_overrides:
+  cool_package:
+    path: ../../packages/cool_package
+  domain_package:
+    path: ../../packages/domain_package

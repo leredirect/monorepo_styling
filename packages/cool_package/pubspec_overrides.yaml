@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: domain_package
+dependency_overrides:
+  domain_package:
+    path: ../domain_package

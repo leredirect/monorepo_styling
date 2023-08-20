@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/cool_package/melos_cool_package.iml" filepath="$PROJECT_DIR$/packages/cool_package/melos_cool_package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/domain_package/melos_domain_package.iml" filepath="$PROJECT_DIR$/packages/domain_package/melos_domain_package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/cool_app/melos_monorepo_styling.iml" filepath="$PROJECT_DIR$/apps/cool_app/melos_monorepo_styling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_monorepo_styling.iml" filepath="$PROJECT_DIR$/melos_monorepo_styling.iml" />
+    </modules>
+  </component>
+</project>

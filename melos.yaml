@@ -1,0 +1,5 @@
+name: monorepo_styling
+
+packages:
+  - apps/**
+  - packages/**
