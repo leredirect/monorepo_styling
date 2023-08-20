@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 class CoolAppPackageTextLibrary extends CoolPackageTextTheme {
   CoolAppPackageTextLibrary({
     required super.coolPageFootnoteStyle,
+    required super.coolPageAppBarStyle,
   });
 
   factory CoolAppPackageTextLibrary.withColorScheme(
@@ -12,5 +13,7 @@ class CoolAppPackageTextLibrary extends CoolPackageTextTheme {
       CoolAppPackageTextLibrary(
         coolPageFootnoteStyle:
             TextStyle(fontSize: 12, color: colorScheme.footnoteTextColor),
+        coolPageAppBarStyle:
+            TextStyle(fontSize: 16, color: colorScheme.appBarTextColor),
       );
 }

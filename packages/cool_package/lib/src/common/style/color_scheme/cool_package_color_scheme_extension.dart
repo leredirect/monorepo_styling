@@ -13,6 +13,7 @@ extension _CoolPackageColorSchemeExtension on CoolPackageColorScheme {
       elementColor7: Color.lerp(elementColor7, other.elementColor7, t)!,
       elementColor8: Color.lerp(elementColor8, other.elementColor8, t)!,
       elementColor9: Color.lerp(elementColor9, other.elementColor9, t)!,
+      appBarTextColor: Color.lerp(appBarTextColor, other.appBarTextColor, t)!,
       footnoteTextColor:
           Color.lerp(footnoteTextColor, other.footnoteTextColor, t)!,
     );

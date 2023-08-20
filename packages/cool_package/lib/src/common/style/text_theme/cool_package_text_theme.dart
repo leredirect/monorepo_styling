@@ -6,10 +6,12 @@ part 'cool_package_text_theme_extension.dart';
 ///interface in this package.
 
 class CoolPackageTextTheme extends ThemeExtension<CoolPackageTextTheme> {
-  TextStyle coolPageFootnoteStyle;
+  final TextStyle coolPageFootnoteStyle;
+  final TextStyle coolPageAppBarStyle;
 
   CoolPackageTextTheme({
     required this.coolPageFootnoteStyle,
+    required this.coolPageAppBarStyle,
   });
 
   @override

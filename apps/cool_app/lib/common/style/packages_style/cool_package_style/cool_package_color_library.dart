@@ -14,6 +14,7 @@ class CoolPackageColorLibrary extends CoolPackageColorScheme {
     required super.elementColor8,
     required super.elementColor9,
     required super.footnoteTextColor,
+    required super.appBarTextColor,
   });
 
   factory CoolPackageColorLibrary.dark() => CoolPackageColorLibrary(
@@ -27,6 +28,7 @@ class CoolPackageColorLibrary extends CoolPackageColorScheme {
         elementColor8: const Color(0xFFCE5757),
         elementColor9: const Color(0xFF5EA353),
         footnoteTextColor: const Color(0xFFCEC3C3),
+        appBarTextColor: const Color(0xFFFFFFFF),
       );
 
   factory CoolPackageColorLibrary.light() => CoolPackageColorLibrary(
@@ -40,5 +42,6 @@ class CoolPackageColorLibrary extends CoolPackageColorScheme {
         elementColor8: const Color(0xFF707070),
         elementColor9: const Color(0xFFB5AD81),
         footnoteTextColor: const Color(0xFFA19797),
+        appBarTextColor: const Color(0xFF000000),
       );
 }

@@ -8,6 +8,10 @@ extension _CoolPackageTextThemeExtension on CoolPackageTextTheme {
         color: Color.lerp(
             coolPageFootnoteStyle.color, other.coolPageFootnoteStyle.color, t),
       ),
+      coolPageAppBarStyle: other.coolPageAppBarStyle.copyWith(
+        color: Color.lerp(
+            coolPageAppBarStyle.color, other.coolPageAppBarStyle.color, t),
+      ),
     );
   }
 }

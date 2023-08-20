@@ -4,7 +4,9 @@ import 'package:domain_package/domain_package.dart';
 import 'package:flutter/material.dart';
 
 part 'footnote_widget.dart';
+
 part 'stripes_widget.dart';
+
 part 'texts_widget.dart';
 
 class CoolPage extends StatelessWidget {
@@ -17,8 +19,8 @@ class CoolPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Cool Page',
-          style: context.appTextTheme().bodySmall,
+          'Cool Page from cool_package',
+          style: context.packageTextTheme().coolPageAppBarStyle,
         ),
         automaticallyImplyLeading: false,
         actions: [

@@ -16,6 +16,7 @@ class CoolPackageColorScheme extends ThemeExtension<CoolPackageColorScheme> {
   final Color elementColor8;
   final Color elementColor9;
   final Color footnoteTextColor;
+  final Color appBarTextColor;
 
   CoolPackageColorScheme({
     required this.elementColor1,
@@ -28,6 +29,7 @@ class CoolPackageColorScheme extends ThemeExtension<CoolPackageColorScheme> {
     required this.elementColor8,
     required this.elementColor9,
     required this.footnoteTextColor,
+    required this.appBarTextColor,
   });
 
   @override

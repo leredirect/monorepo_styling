@@ -10,8 +10,9 @@ class AppThemeData {
     final appColors = settings.appColors;
     final appTextTheme = settings.appTextTheme;
     return ThemeData(
-      brightness: Brightness.dark,
+      brightness: settings.brightness,
       colorScheme: ColorScheme.dark(
+        brightness: settings.brightness,
         primary: appColors.primaryColor,
         background: appColors.backgroundColor,
         surface: appColors.surfaceColor,

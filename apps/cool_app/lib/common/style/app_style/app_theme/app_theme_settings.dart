@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:monorepo_styling/common/style/app_style/app_colors.dart';
 import 'package:monorepo_styling/common/style/app_style/app_text_theme.dart';
 import 'package:monorepo_styling/common/style/packages_style/cool_package_style/cool_package_color_library.dart';
@@ -11,12 +12,14 @@ class AppThemeSettings {
   final AppTextTheme appTextTheme;
   final CoolPackageColorLibrary coolPackageColors;
   final CoolAppPackageTextLibrary coolPackageTextTheme;
+  final Brightness brightness;
 
   const AppThemeSettings({
     required this.appColors,
     required this.coolPackageColors,
     required this.appTextTheme,
     required this.coolPackageTextTheme,
+    required this.brightness,
   });
 
   factory AppThemeSettings.dark() {
@@ -28,6 +31,7 @@ class AppThemeSettings {
       coolPackageColors: packageColors,
       coolPackageTextTheme:
           CoolAppPackageTextLibrary.withColorScheme(packageColors),
+      brightness: Brightness.dark,
     );
   }
 
@@ -40,6 +44,7 @@ class AppThemeSettings {
       coolPackageColors: packageColors,
       coolPackageTextTheme:
           CoolAppPackageTextLibrary.withColorScheme(packageColors),
+      brightness: Brightness.light,
     );
   }
 }
